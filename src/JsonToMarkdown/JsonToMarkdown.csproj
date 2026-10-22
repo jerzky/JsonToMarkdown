@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
+    <PackageId>JsonToMarkdown</PackageId>
+    <Description>Fast, zero-allocation, token-efficient JSON to Markdown conversion for LLMs and AI tool calling.</Description>
+    <Authors>Jens</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>json;markdown;llm;mcp;token;distill;ai;openai;claude</PackageTags>
+    <RepositoryUrl>https://github.com/jerzky/JsonToMarkdown</RepositoryUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+</Project>

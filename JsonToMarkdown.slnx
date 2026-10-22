@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/JsonToMarkdown/JsonToMarkdown.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/JsonToMarkdown.Tests/JsonToMarkdown.Tests.csproj" />
+  </Folder>
+</Solution>
