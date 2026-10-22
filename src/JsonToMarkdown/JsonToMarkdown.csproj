@@ -2,12 +2,18 @@
   <PropertyGroup>
     <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
     <PackageId>JsonToMarkdown</PackageId>
+    <VersionPrefix>0.1.0</VersionPrefix>
     <Description>Fast, zero-allocation, token-efficient JSON to Markdown conversion for LLMs and AI tool calling.</Description>
     <Authors>Jens</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>json;markdown;llm;mcp;token;distill;ai;openai;claude</PackageTags>
     <RepositoryUrl>https://github.com/jerzky/JsonToMarkdown</RepositoryUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 </Project>
